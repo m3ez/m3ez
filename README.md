@@ -9,7 +9,7 @@
   <p><code>General Bae</code> · <code>Web Security</code> · <code>Red Team</code> · <code>Security Researcher</code> · <code>Vulnerability Research</code></p>
 </div>
 
-## published CVEs
+## Published CVEs
 
 <!-- WORDFENCE-CVES:START -->
 [**43 CVEs**](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/supakiad-s) · newest first, because archaeology can wait.
@@ -19,7 +19,7 @@
 
 **More credits** · [Patchstack](https://patchstack.com/database/researchers/d7a606d8-9d89-4bcf-a973-f8ebe721b82f): [CVE-2024-4367](https://patchstack.com/database/wordpress/plugin/3d-flipbook-dflip-lite/vulnerability/wordpress-pdf-flipbook-3d-flipbook-pdf-embed-pdf-viewer-plugin-2-2-55-cross-site-scripting-xss-vulnerability) · [GitHub Advisory Database](https://github.com/advisories?query=credit%3Am3ez): [CVE-2025-66307](https://github.com/advisories/GHSA-q3qx-cp62-f6m7)
 
-## receipts
+## Receipts
 
 <p>
   <a href="https://www.credential.net/c3607d25-4055-488f-9e75-f9e4b7a659b4"><img src="./badges/osep.png" height="64" alt="OSEP — OffSec — 2026-04-20" title="OSEP — OffSec — 2026-04-20"></a>
@@ -42,6 +42,6 @@
   <a href="https://www.credly.com/badges/681aca07-d656-4fa4-b4c2-787195b37fe3/public_url"><img src="./badges/security-plus.png" height="64" alt="Security+ — CompTIA — 2019-10-31" title="Security+ — CompTIA — 2019-10-31"></a>
 </p>
 
-## references
+## References
 
 [Portfolio](https://m3ez.github.io) · [Wordfence](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/supakiad-s) · [Patchstack](https://patchstack.com/database/researchers/d7a606d8-9d89-4bcf-a973-f8ebe721b82f) · [GitHub Advisories](https://github.com/advisories?query=credit%3Am3ez) · [Accredible](https://www.credential.net/profile/supakiadsatuwan533944) · [Credly](https://www.credly.com/users/supakiad-satuwan) · [OffSec](https://credentials.offsec.com/1b595015-c060-4e65-9c75-2319d2f31554#acc.nx1uY5OR)
