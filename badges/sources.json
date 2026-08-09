@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "badges": [
+    {
+      "filename": "osep.png",
+      "credential": "OSEP",
+      "issuer": "OffSec",
+      "issued_on": "2026-04-20",
+      "source_url": "https://templates.images.credential.net/16776782813666930824494918563079.png",
+      "verification_url": "https://www.credential.net/c3607d25-4055-488f-9e75-f9e4b7a659b4",
+      "mime_type": "image/png",
+      "bytes": 31395,
+      "sha256": "6956bdb62793bd429bab05e22e1a01f5f5782ccf194fea38aa8032583db14b17"
+    },
+    {
+      "filename": "oscp-plus.png",
+      "credential": "OSCP+",
+      "issuer": "OffSec",
+      "issued_on": "2025-07-28",
+      "source_url": "https://templates.images.credential.net/17303012308215729956811213381538.png",
+      "verification_url": "https://credentials.offsec.com/1b595015-c060-4e65-9c75-2319d2f31554#acc.nx1uY5OR",
+      "mime_type": "image/png",
+      "bytes": 40576,
+      "sha256": "ef149bd8e13da2b2adf1e3b1c1b24f28d9b2e9ea5e5f30f11568a3ec01abe0c3"
+    },
+    {
+      "filename": "oswe.png",
+      "credential": "OSWE",
+      "issuer": "OffSec",
+      "issued_on": "2021-10-08",
+      "source_url": "https://templates.images.credential.net/16776822773364032700619988101440.png",
+      "verification_url": "https://www.credential.net/f3a526f9-acbf-4dcd-9dee-0d90c9ee9767",
+      "mime_type": "image/png",
+      "bytes": 34249,
+      "sha256": "5e11cd0f6523fd7737403c042f5230def84c3b589f59582f170b00a34a3666f5"
+    },
+    {
+      "filename": "oscp.png",
+      "credential": "OSCP",
+      "issuer": "OffSec",
+      "issued_on": "2020-09-18",
+      "source_url": "https://templates.images.credential.net/1677682410975725023965573912354.png",
+      "verification_url": "https://credentials.offsec.com/e93ab215-7572-4ec3-90af-02b768b49266#acc.nwB0fRog",
+      "mime_type": "image/png",
+      "bytes": 35475,
+      "sha256": "dff8768a5648ca9c9c4a3a664d05c5e7eac79a920999ed42ee5ac5f271bbd61b"
+    },
+    {
+      "filename": "ethical-hacker.png",
+      "credential": "Ethical Hacker",
+      "issuer": "Cisco",
+      "issued_on": "2026-06-20",
+      "source_url": "https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png",
+      "verification_url": "https://www.credly.com/badges/5dc57b75-6252-42c2-a40b-6e84aa83c0e2/public_url",
+      "mime_type": "image/png",
+      "bytes": 58560,
+      "sha256": "d9d7db198ee93c627cb4887ab88501c74474136b05eb6a12a0fc2a8bfee00c93"
+    },
+    {
+      "filename": "rhcsa.png",
+      "credential": "RHCSA",
+      "issuer": "Red Hat",
+      "issued_on": "2026-05-13",
+      "source_url": "https://images.credly.com/images/572de0ba-2c59-4816-a59d-b0e1687e45ee/image.png",
+      "verification_url": "https://www.credly.com/badges/d349e815-3399-4402-bfe6-669ee9b4cf4b/public_url",
+      "mime_type": "image/png",
+      "bytes": 17725,
+      "sha256": "f6ccef6c7facb6ae7f76cad9acf5d20d41e0eeb9f561b4bf42801a0463eb3a8d"
+    },
+    {
+      "filename": "crtp.png",
+      "credential": "CRTP",
+      "issuer": "Altered Security",
+      "issued_on": "2026-04-15",
+      "source_url": "https://static.wixstatic.com/media/470c31_f89db457309f4d3caa31f94458441a8f~mv2.png",
+      "verification_url": "https://www.credential.net/02e37ded-be80-4118-b483-92f224d07165",
+      "mime_type": "image/png",
+      "bytes": 80984,
+      "sha256": "59139f774a5cfcdcb19b470d29bea80739aaa519091a0c1277eb707fe0b52ed4"
+    },
+    {
+      "filename": "ewptx.png",
+      "credential": "eWPTX",
+      "issuer": "INE",
+      "issued_on": "2026-04-14",
+      "source_url": "https://templates.images.credential.net/16947191222671701758205992327842.png",
+      "verification_url": "https://www.credential.net/6d639d2a-5135-448f-8e84-fec9a16637a6",
+      "mime_type": "image/png",
+      "bytes": 70523,
+      "sha256": "9d3056f2ba1d6c8bdc5104a6fcfcdd98fdcbf55bb0ce6f6c119340ff805a611f"
+    },
+    {
+      "filename": "llmail-inject.png",
+      "credential": "LLMail-Inject Challenge",
+      "issuer": "Microsoft Security",
+      "issued_on": "2026-01-26",
+      "source_url": "https://images.credly.com/images/5785026b-8980-4c78-b761-a94e3121f541/blob",
+      "verification_url": "https://www.credly.com/badges/b9b8d768-cd0c-4ab9-882d-0d98afc88eae/public_url",
+      "mime_type": "image/png",
+      "bytes": 564851,
+      "sha256": "e90be2fe86ddfbe3a1ee33b40de474bd707374d14192592538d86dd830677aeb"
+    },
+    {
+      "filename": "ewpt.png",
+      "credential": "eWPT",
+      "issuer": "INE",
+      "issued_on": "2024-08-10",
+      "source_url": "https://templates.images.credential.net/16947191873158488518373721742383.png",
+      "verification_url": "https://www.credential.net/fd47acc2-d2ca-4b5d-beac-48fb6cd7619f",
+      "mime_type": "image/png",
+      "bytes": 61994,
+      "sha256": "3aa7e1f4b7ca14f7a41bb7fd5051d4316d4d4814e447c25ce15fb6b8fd2c6d78"
+    },
+    {
+      "filename": "pmpa.png",
+      "credential": "Practical Mobile Pentest Associate",
+      "issuer": "TCM Security",
+      "issued_on": "2024-05-11",
+      "source_url": "https://templates.images.credential.net/17320505324334129839259330449078.png",
+      "verification_url": "https://www.credential.net/9c00a18f-4987-427e-806e-6e77da018e39",
+      "mime_type": "image/png",
+      "bytes": 796464,
+      "sha256": "0a8bfc50e98155e66ffbb69492160797fefa8d9b4e059118f28a436065b361c8"
+    },
+    {
+      "filename": "mvr-2023.png",
+      "credential": "2023 MVR Volume Badge",
+      "issuer": "Microsoft Security",
+      "issued_on": "2023-09-28",
+      "source_url": "https://images.credly.com/images/34be78f3-0924-4af8-a9ae-06a029b82c17/image.png",
+      "verification_url": "https://www.credly.com/badges/1d833194-d832-426d-bd5a-94970137fdd4/public_url",
+      "mime_type": "image/png",
+      "bytes": 627408,
+      "sha256": "0998c5eb6b757f1d5192b5476f6f4edd9383fffa368b1d1610dd67d7431a0e2e"
+    },
+    {
+      "filename": "pentest-plus.png",
+      "credential": "PenTest+",
+      "issuer": "CompTIA",
+      "issued_on": "2022-10-25",
+      "source_url": "https://images.credly.com/images/c7ac176b-15a3-4726-827a-e8cee8fe44dc/blob",
+      "verification_url": "https://www.credly.com/badges/198b0ac2-e417-4f51-a2f4-46c2ccef7ab7/public_url",
+      "mime_type": "image/png",
+      "bytes": 29570,
+      "sha256": "55a0881701d513ed1315b8a40b4bb692efcfb20545bb0afbf890fcf37356c270"
+    },
+    {
+      "filename": "cnvp.png",
+      "credential": "CNVP",
+      "issuer": "CompTIA",
+      "issued_on": "2022-10-25",
+      "source_url": "https://images.credly.com/images/3eaf80a9-a69a-480a-a98b-e9a91796d6cb/CompTIA_CNVP.png",
+      "verification_url": "https://www.credly.com/badges/2fe3137e-201e-4f5f-a1f1-8221e8dc1ab6/public_url",
+      "mime_type": "image/png",
+      "bytes": 40376,
+      "sha256": "be15eb4da43924704da2927ddaf1fe5d26d844b0d219949f52766a4916236c1e"
+    },
+    {
+      "filename": "security-plus.png",
+      "credential": "Security+",
+      "issuer": "CompTIA",
+      "issued_on": "2019-10-31",
+      "source_url": "https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob",
+      "verification_url": "https://www.credly.com/badges/681aca07-d656-4fa4-b4c2-787195b37fe3/public_url",
+      "mime_type": "image/png",
+      "bytes": 30638,
+      "sha256": "fe8aa2163761bbb93b53309f2c77b328a5f2c8a8abae5c2782729f5b83ffc4b2"
+    }
+  ]
+}
