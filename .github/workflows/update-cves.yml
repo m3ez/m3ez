@@ -1,0 +1,47 @@
+name: Update published CVEs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 17 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-published-cves
+  cancel-in-progress: false
+
+jobs:
+  update:
+    environment:
+      name: WORDFENCE_API_KEY
+      deployment: false
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Test updater
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Refresh README
+        env:
+          WORDFENCE_API_KEY: ${{ secrets.WORDFENCE_API_KEY }}
+        run: python3 scripts/update_wordfence_cves.py
+
+      - name: Commit changed README
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: refresh published CVEs"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
