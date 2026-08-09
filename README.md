@@ -4,7 +4,7 @@
 
 I break things professionally. The report is how you know it was authorized.
 
-`Web Security` · `Red Team` · `WordPress` · `Vulnerability Research`
+`General Bae` · `Web Security` · `Red Team` · `Security Researcher` · `Vulnerability Research`
 
 ## receipts
 
