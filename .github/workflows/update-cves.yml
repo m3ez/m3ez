@@ -4,6 +4,13 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "23 17 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-cves.yml"
+      - "scripts/update_wordfence_cves.py"
+      - "tests/test_update_wordfence_cves.py"
 
 permissions:
   contents: write
