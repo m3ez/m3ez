@@ -39,4 +39,6 @@ I break things professionally. The report is how you know it was authorized.
   <a href="https://www.credly.com/badges/681aca07-d656-4fa4-b4c2-787195b37fe3/public_url"><img src="https://images.credly.com/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" height="64" alt="Security+ — CompTIA — 2019-10-31" title="Security+ — CompTIA — 2019-10-31"></a>
 </p>
 
-[Portfolio](https://m3ez.github.io) · [Accredible](https://www.credential.net/profile/supakiadsatuwan533944) · [Credly](https://www.credly.com/users/supakiad-satuwan) · [OffSec](https://credentials.offsec.com/1b595015-c060-4e65-9c75-2319d2f31554#acc.nx1uY5OR)
+## references
+
+[Portfolio](https://m3ez.github.io) · [Wordfence](https://www.wordfence.com/threat-intel/vulnerabilities/researchers/supakiad-s) · [Patchstack](https://patchstack.com/database/researchers/d7a606d8-9d89-4bcf-a973-f8ebe721b82f) · [GitHub Advisories](https://github.com/advisories?query=credit%3Am3ez) · [Accredible](https://www.credential.net/profile/supakiadsatuwan533944) · [Credly](https://www.credly.com/users/supakiad-satuwan) · [OffSec](https://credentials.offsec.com/1b595015-c060-4e65-9c75-2319d2f31554#acc.nx1uY5OR)
