@@ -1,4 +1,4 @@
-# m3ez
+# Supakiad S. (m3ez)
 
 **Supakiad S.** Offensive security specialist.
 
@@ -7,8 +7,6 @@ I break things professionally. The report is how you know it was authorized.
 `Web Security` · `Red Team` · `WordPress` · `Vulnerability Research`
 
 ## receipts
-
-OffSec first. Everything else follows the timestamps.
 
 <p>
   <a href="https://www.credential.net/c3607d25-4055-488f-9e75-f9e4b7a659b4"><img src="https://templates.images.credential.net/16776782813666930824494918563079.png" height="64" alt="OSEP — OffSec — 2026-04-20" title="OSEP — OffSec — 2026-04-20"></a>
