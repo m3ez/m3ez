@@ -1,10 +1,13 @@
 # Supakiad S. (m3ez)
 
-**Supakiad S.** Offensive security specialist.
+<div align="center">
+  <strong>Offensive Security</strong><br>
+  <strong>Specialist &amp; Consultant &amp; Researcher</strong>
 
-I break things professionally. The report is how you know it was authorized.
+  <p>I break things professionally. The report is how you know it was authorized.</p>
 
-`General Bae` · `Web Security` · `Red Team` · `Security Researcher` · `Vulnerability Research`
+  <p><code>General Bae</code> · <code>Web Security</code> · <code>Red Team</code> · <code>Security Researcher</code> · <code>Vulnerability Research</code></p>
+</div>
 
 ## published CVEs
 
