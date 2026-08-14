@@ -7,10 +7,12 @@ import json
 import os
 import re
 import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Mapping, Sequence
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
@@ -27,6 +29,11 @@ RESEARCHER_ALIASES = frozenset(
         "m3ez",
     }
 )
+RETRYABLE_HTTP_STATUSES = frozenset({408, 425, 500, 502, 503, 504})
+
+
+class RateLimitedError(RuntimeError):
+    """Wordfence refused the feed request because the API quota is cooling down."""
 
 
 @dataclass(frozen=True)
@@ -152,25 +159,52 @@ def fetch_feed(
     api_key: str,
     timeout: int = 180,
     opener: Callable[..., Any] = urlopen,
+    sleeper: Callable[[float], None] = time.sleep,
+    attempts: int = 3,
 ) -> Mapping[str, object]:
     key = api_key.strip()
     if not key:
         raise ValueError("WORDFENCE_API_KEY is not configured")
+    if attempts < 1:
+        raise ValueError("fetch attempts must be at least 1")
 
     request = Request(
         PRODUCTION_FEED_URL,
         headers={
             "Accept": "application/json",
             "Authorization": f"Bearer {key}",
-            "User-Agent": "m3ez-profile-cve-updater/1.0",
+            "User-Agent": "m3ez-profile-cve-updater/1.1",
         },
     )
-    with opener(request, timeout=timeout) as response:
-        payload = json.loads(response.read().decode("utf-8"))
 
-    if not isinstance(payload, dict):
-        raise ValueError("Wordfence production feed root must be a JSON object")
-    return payload
+    for attempt in range(1, attempts + 1):
+        try:
+            with opener(request, timeout=timeout) as response:
+                payload = json.loads(response.read().decode("utf-8"))
+        except HTTPError as error:
+            if error.code == 429:
+                retry_after = error.headers.get("Retry-After") if error.headers else None
+                suffix = f" (Retry-After: {retry_after})" if retry_after else ""
+                raise RateLimitedError(
+                    f"Wordfence production feed returned HTTP 429{suffix}"
+                ) from error
+            if error.code in RETRYABLE_HTTP_STATUSES and attempt < attempts:
+                sleeper(float(attempt * 10))
+                continue
+            raise OSError(
+                f"Wordfence production feed returned HTTP {error.code}"
+            ) from error
+        except (URLError, TimeoutError) as error:
+            if attempt < attempts:
+                sleeper(float(attempt * 10))
+                continue
+            raise OSError("Unable to fetch the Wordfence production feed") from error
+
+        if not isinstance(payload, dict):
+            raise ValueError("Wordfence production feed root must be a JSON object")
+        return payload
+
+    raise OSError("Unable to fetch the Wordfence production feed")
 
 
 def update_readme(readme_path: Path, feed: Mapping[str, object]) -> bool:
@@ -188,6 +222,13 @@ def main() -> int:
     try:
         feed = fetch_feed(os.environ.get("WORDFENCE_API_KEY", ""))
         changed = update_readme(Path("README.md"), feed)
+    except RateLimitedError as error:
+        print(f"Wordfence CVE update deferred: {error}", file=sys.stderr)
+        print(
+            "Existing verified README CVE block retained; the next scheduled run will retry.",
+            file=sys.stderr,
+        )
+        return 0
     except (OSError, ValueError) as error:
         print(f"Wordfence CVE update failed: {error}", file=sys.stderr)
         return 1
