@@ -22,6 +22,8 @@
 ## Receipts
 
 <p>
+  <a href="https://www.credential.net/d542e2d9-701a-4fe7-a9d9-c03cf345dff9"><img src="./badges/osce3.png" height="64" alt="OSCE³ — OffSec — 2026-11-10" title="OSCE³ — OffSec — 2026-11-10"></a>
+  <a href="https://www.credential.net/a851750c-0d5b-494a-a361-708cc21b00cb"><img src="./badges/osed.png" height="64" alt="OSED — OffSec — 2026-11-06" title="OSED — OffSec — 2026-11-06"></a>
   <a href="https://www.credential.net/c3607d25-4055-488f-9e75-f9e4b7a659b4"><img src="./badges/osep.png" height="64" alt="OSEP — OffSec — 2026-04-20" title="OSEP — OffSec — 2026-04-20"></a>
   <a href="https://credentials.offsec.com/1b595015-c060-4e65-9c75-2319d2f31554#acc.nx1uY5OR"><img src="./badges/oscp-plus.png" height="64" alt="OSCP+ — OffSec — 2025-07-28" title="OSCP+ — OffSec — 2025-07-28"></a>
   <a href="https://www.credential.net/f3a526f9-acbf-4dcd-9dee-0d90c9ee9767"><img src="./badges/oswe.png" height="64" alt="OSWE — OffSec — 2021-10-08" title="OSWE — OffSec — 2021-10-08"></a>

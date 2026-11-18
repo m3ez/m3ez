@@ -2,6 +2,28 @@
   "schema_version": 1,
   "badges": [
     {
+      "filename": "osce3.png",
+      "credential": "OSCE³",
+      "issuer": "OffSec",
+      "issued_on": "2026-11-10",
+      "source_url": "https://api.accredible.com/v1/frontend/credential_badge_image/199970268",
+      "verification_url": "https://www.credential.net/d542e2d9-701a-4fe7-a9d9-c03cf345dff9",
+      "mime_type": "image/png",
+      "bytes": 8312,
+      "sha256": "dc4d92d1fc9ab7d641252166a63676e81d015dbfa63822548f17aae1872f3c88"
+    },
+    {
+      "filename": "osed.png",
+      "credential": "OSED",
+      "issuer": "OffSec",
+      "issued_on": "2026-11-06",
+      "source_url": "https://api.accredible.com/v1/frontend/credential_badge_image/199630144",
+      "verification_url": "https://www.credential.net/a851750c-0d5b-494a-a361-708cc21b00cb",
+      "mime_type": "image/png",
+      "bytes": 8813,
+      "sha256": "24d34f4053d0e4639c31da946fc78e0798f844e03c17277f2fffbaab94581c78"
+    },
+    {
       "filename": "osep.png",
       "credential": "OSEP",
       "issuer": "OffSec",
